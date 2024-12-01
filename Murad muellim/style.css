@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+
+}
+
+h2{
+    color: brown;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    }
