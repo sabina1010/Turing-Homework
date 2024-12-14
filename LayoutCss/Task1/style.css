@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100vh ekran qeder tutsun */
+}
+
+
+.container{
+    /* margin: 0 auto; */
+    width: 760px;
+    border: 3px solid #A7AAA9;
+    /* margin-top: 50px; */
+}
+
+header{
+    /* 100% parenti qeder tutsun */
+width: 100%;
+text-align: left;
+background-color:#52A7F9;
+padding: 15px;
+color:white;
+}
+
+main{
+    width: 550px;
+    margin: 0 auto;
+    padding: 5px;
+    }
+.first_bar{
+    display: flex;
+    gap: 5px;
+}
+
+.second_bar{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+
+}
+.main_content{
+    width: 300px;
+    height:200px;
+    background-color: #6FC041;
+    color: white;
+}
+
+.sidebar{
+    width: 190px;
+    height: 200px;
+    background-color: #B36AE2;
+    color: white;
+}
+
+.twin{
+    width: 245px;
+    height: 160px;
+    background-color: #F3901A;
+    color: white;
+}
+
+.center{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #0265C0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 15px;
+
+}
+
+
