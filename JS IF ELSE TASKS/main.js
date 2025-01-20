@@ -1,5 +1,5 @@
 "use strict"
- //task1
+//task1
 // let num1 = Number(prompt("enter the first number"));
 // let num2 = Number(prompt("enter the second number"));
 // let num3 = Number(prompt("enter the third number"));
@@ -26,7 +26,7 @@
 //     }
 // else{
 //     console.log("artiq il deyil");
-    
+
 // }
 
 //task3
@@ -91,7 +91,7 @@
 
 //    else{
 //     console.log(i);
-    
+
 //    }}
 
 //task6
@@ -100,6 +100,45 @@
 
 // for(let i=1; i<=10; i++){
 //     console.log(`${num} * ${i} =  ${num*i}`);
+// }
+
+//task7
+
+//: Təbii Ədədlərin Cəmi
+// 1-dən verilən bir ədədə qədər olan bütün ədədlərin cəmini hesablayan proqram yazın.
+
+// let num = Number(prompt("Enter number"));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     sum += i;
+// }
+// console.log(sum);
+
+
+
+// Tapşırıq 8: Sadə Kalkulyator
+// Əsas riyazi əməliyyatları (toplama, çıxma, vurma, bölmə) həyata keçirən proqram yaradın.
+// alert("num1 - operation - num2");
+// let num1 = Number(prompt("enter first number"));
+// let num2 = Number(prompt("enter second number"));
+// let operation = prompt("enter operation (+, -, *, /)");
+// switch (operation) {
+//     case "+":
+//         console.log(`${num1} + ${num2} = ${num1 + num2}`);
+//         break;
+//     case "-":
+//         console.log(`${num1} - ${num2} = ${num1 - num2}`);
+//         break;
+//     case "*":
+//         console.log(`${num1} * ${num2} = ${num1 * num2}`);
+//         break;
+//     case "/":
+//         console.log(`${num1} / ${num2} = ${num1 / num2}`);
+//         break;
+//     default:
+//         alert("operation is not correct!");
+
+//         break;
 // }
 
 
