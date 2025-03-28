@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container_1{
+    text-align: center;
+    margin-top: 200px;
+}
+.container_1 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #333;
+}
+.container_1 #timer{
+    font-size: 50px;
+    color: #333;
+    margin-top: 30px;
+}
+.container_1 #start,.container_1 #stop, .container_1 #reset{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
